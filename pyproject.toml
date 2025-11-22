@@ -1,0 +1,26 @@
+[project]
+name = "workshop-observabilidade"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Marcos Soares",email = "marcosjmsoares@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic (>=2.12.4,<3.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "sqlalchemy (>=2.0.44,<3.0.0)",
+    "logfire[sqlalchemy] (>=4.15.1,<5.0.0)",
+    "opentelemetry-api (>=1.38.0,<2.0.0)",
+    "opentelemetry-sdk (>=1.38.0,<2.0.0)",
+    "flask (>=3.1.2,<4.0.0)",
+    "opentelemetry-distro (>=0.59b0,<0.60)",
+    "streamlit (>=1.51.0,<2.0.0)",
+    "psycopg2-binary (>=2.9.11,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
