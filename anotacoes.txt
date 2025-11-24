@@ -1,0 +1,5 @@
+começa no minuto 27
+
+minuto 1:21  = open telemetry biblioteca
+
+minuto 1:59 = logfire
